@@ -10,11 +10,11 @@ Code accompanying the paper:
 This repository contains the code and notebooks used to study the emergence of redundancy plateaus in quantum Darwinism and their relation to the performance of Petz recovery maps. Overall, we aim to
 
 - analyze redundancy plateaus in one-to-all qubit models,
-- suantify recovery quality using Petz maps,
+- quantify recovery quality using Petz maps,
 
 and additionally, provide easy tools to
 
-- seproduce all figures from the paper and
+- reproduce all figures from the paper and
 - study the basic properties of Petz recovery for one-to-all systems.
 
 ---
@@ -30,7 +30,7 @@ and additionally, provide easy tools to
 
 ## Installation
 
-Included are two different options for reproducing an environment for running the notebooks. Note that these only consider the minimal set of dependencies to ensure compatability: Things like Jupyter support for notebooks and similar things are left out to be solved the user in the pip option. The conda environment should include everything necessary.
+Included are two different options for reproducing an environment for running the notebooks. Note that these only consider the minimal set of dependencies to ensure compatability: Things like Jupyter support for notebooks and similar things are left out to be solved by the user in the pip option. The conda environment should include everything necessary.
 
 Before installing said dependencies, you can clone the repository to your computer and change directories to it by running the following lines from a terminal:
 
@@ -54,8 +54,7 @@ conda activate petz-env-conda
 
 ## Reproducing results
 
-We provide individual notebooks for reproducing all the figures appearing in the paper. These can be found in the "notebooks" directory and are quite straight forward to run, as all required seeds/variables/etc. are prepared by default to match results. Precomputed results are available in the "results" directory as running the provided notebooks with preset settings can take a while!
-
+We provide individual notebooks for reproducing all the figures appearing in the paper. These can be found in the "notebooks" directory and are quite straight forward to run, as all required details are prepared by default to match results. Precomputed results are available in the "results" directory as running the provided notebooks with preset settings can take a while!
 
 (plots not in initial commit)
 
