@@ -1,0 +1,23 @@
+# environment.yml
+name: petz-env-conda
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12.3
+
+  # Core scientific stack 
+  - numpy=2.4
+  - scipy=1.17
+  - matplotlib=3.10
+
+  # Jupyter environment
+  - jupyterlab
+  - ipykernel
+
+  # Section for packages not reliably handled by conda
+  - pip
+  - pip:
+      - qutip==5.2.3
