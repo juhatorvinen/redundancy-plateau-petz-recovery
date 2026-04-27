@@ -320,7 +320,7 @@ def xi_unitaries(r, g_l, t, xi_obs, gamma_obs):
     omega_r = gamma_obs.full()[r,r]
 
     # create term operator to exponate and unitary
-    exp = -1j * omega_r * t * g_l * xi_obs * t
+    exp = -1j * omega_r * t * g_l * xi_obs
     U = exp.expm()
 
     # return unitary
