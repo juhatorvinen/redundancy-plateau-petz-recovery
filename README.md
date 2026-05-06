@@ -1,4 +1,4 @@
-# Redundancy Plateau and the Quality of Petz Recovery
+# Quantum Darwinism and the Quality of Petz Recovery
 
 Code accompanying the paper:
 
