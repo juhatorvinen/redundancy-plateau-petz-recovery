@@ -2,7 +2,7 @@
 
 Code accompanying the paper:
 
-> *Redundancy Plateau and the Quality of Petz Recovery*, \
+> *Quantum Darwinism and the Quality of Petz Recovery*, \
 > Juha Torvinen, Esko Keski-Vakkuri, Nicola Pranzini, 2026
 
 ## Overview
@@ -35,8 +35,8 @@ Included are two different options for reproducing an environment for running th
 Before installing said dependencies, you can clone the repository to your computer and change directories to it by running the following lines from a terminal:
 
 ```bash
-git clone https://github.com/juhatorvinen/redundancy-plateau-petz-recovery.git
-cd redundancy-plateau-petz-recovery
+git clone https://github.com/juhatorvinen/quantum-darwinism-petz-recovery.git
+cd quantum-darwinism-petz-recovery
 ```
 
 To install dependencies with pip, one can simply run
@@ -55,8 +55,6 @@ conda activate petz-env-conda
 ## Reproducing results
 
 We provide individual notebooks for reproducing all the figures appearing in the paper. These can be found in the "notebooks" directory and are quite straight forward to run, as all required details are prepared by default to match results. Precomputed results are available in the "results" directory as running the provided notebooks with preset settings can take a while!
-
-(plots not in initial commit)
 
 ## Citation
 
